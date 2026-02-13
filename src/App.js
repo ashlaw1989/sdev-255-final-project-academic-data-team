@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import { createCourse, deleteCourse } from "./courseFunctions";
-import { courses as initialCourses } from "./courses";
 import './App.css';
 
 function App() {
