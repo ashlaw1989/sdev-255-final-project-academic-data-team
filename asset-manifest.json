@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sdev-255-final-project-academic-data-team/static/css/main.619f6b47.css",
+    "main.js": "/sdev-255-final-project-academic-data-team/static/js/main.fc375019.js",
+    "index.html": "/sdev-255-final-project-academic-data-team/index.html",
+    "main.619f6b47.css.map": "/sdev-255-final-project-academic-data-team/static/css/main.619f6b47.css.map",
+    "main.fc375019.js.map": "/sdev-255-final-project-academic-data-team/static/js/main.fc375019.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.619f6b47.css",
+    "static/js/main.fc375019.js"
+  ]
+}
