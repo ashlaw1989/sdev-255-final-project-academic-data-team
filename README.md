@@ -7,7 +7,6 @@ This project is a web app for managing college courses. Teachers can create, edi
 - Define course model and establish mock data
 - Implement functionality to add, edit, and delete courses
 - Courses include the following fields: name, description, subject, credits, course number, and instructor
-- Optional: simple display for testing backend logic
 
 ## Stage 2
 - Implement user login and authentication system
