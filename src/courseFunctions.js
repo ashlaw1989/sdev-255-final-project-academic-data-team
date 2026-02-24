@@ -13,7 +13,7 @@ export function updateCourse(courseFind, updatedCourse) {
     }
 }
 
-export function deleteCourse(courseFind, deletedCourse) {
+export function deleteCourse(courseFind) {
     const courseIndex = courses.findIndex(course => course.id === courseFind);
     if (courseIndex !== -1) {
         courses.splice(courseIndex, 1);
