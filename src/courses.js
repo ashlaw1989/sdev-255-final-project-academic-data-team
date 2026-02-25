@@ -6,7 +6,7 @@ export const courses = [
         course: 245,
         description: "Fundamentals of Writing Secure Code",
         credits: 3,
-        instructor: "Guido Van Rossum"
+        teacherId: 1
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const courses = [
         course: 150,
         description: "Fundamentals of Cloud Computing",
         credits: 3,
-        instructor: "Andy Jassy"
+        teacherId: 2
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const courses = [
         course: 120,
         description: "Fundamentals of Computer Logic and Algorithm",
         credits: 3,
-        instructor: "Ada Lovelace"
+        teacherId: 3
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const courses = [
         course: 140,
         description: "Fundamentals of Python",
         credits: 3,
-        instructor: "Ada Lovelace"
+        teacherId: 4
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const courses = [
         course: 255,
         description: "Fundamentals of Full-Stack Web Developmemt",
         credits: 3,
-        instructor: "Sir Tim Berners-Lee"
+        teacherId: 5
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const courses = [
         course: 200,
         description: "Fundamentals of Java Programming",
         credits: 3,
-        instructor: "James Gosling"
+        teacherId: 6
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const courses = [
         course: 230,
         description: "Fundamentals of C++ Programming",
         credits: 3,
-        instructor: "Bjarne Stroustrup"
+        teacherId: 7
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ export const courses = [
         course: 240,
         description: "Fundamentals of C# Programming",
         credits: 3,
-        instructor: "Anders Hejlsberg"
+        teacherId: 8
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ export const courses = [
         course: 248,
         description: "Fundamentals of Game Design and Simulation",
         credits: 3,
-        instructor: "John Carmack"
+        teacherId: 9
     },
     {
         id: 10,
@@ -87,6 +87,6 @@ export const courses = [
         course: 268,
         description: "Fundamentals of Algorithms and Software Design Patterns",
         credits: 3,
-        instructor: "Donald Knuth"
+        teacherId: 10
     }
 ];
