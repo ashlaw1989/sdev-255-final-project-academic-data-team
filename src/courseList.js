@@ -22,10 +22,10 @@ export default function CourseList() {
             <h3>All Courses</h3>
             <ul>
                 {courseList.map((course) => (
-                    <li key={course.id} style={{ marginBottom: "10px" }}>
+                    <li key={course.id}>
                         <strong>{course.name}</strong> - {course.subject} {course.course}{" "}
-                        <button onClick={() => handleDelete(course.id)} style={{ marginLeft: "10px" }}>Delete</button>
-                        <button style={{ marginLeft: "10px" }}><a href={`/details/${course.id}`}>Details</a></button>
+                        <button onClick={() => handleDelete(course.id)}>Delete</button>
+                        <a href={`/details/${course.id}`}>Details</a>
                     </li>
                 ))}
             </ul>
