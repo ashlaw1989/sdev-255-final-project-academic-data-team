@@ -1,21 +1,34 @@
-import React, { useState } from "react";
-import { courses } from "./courses";
-import { deleteCourse } from "./courseFunctions";
-
-
+import React, { useEffect, useState } from "react";
 
 export default function CourseList() {
-    const [courseList, setCourseList] = useState(courses);
+    const [courseList, setCourseList] = useState([]);
 
-    const handleDelete = (id) => {
+    useEffect(() => {
+        loadCourses();
+    }, []);
+    
+    async function loadCourses() {
         try {
-            deleteCourse(id);
-            setCourseList([...courses]);
+            const response = await fetch("http://localhost:5000/courses");
+            const data = await response.json();
+            setCourseList(data);
         }
         catch(err) {
-            alert(err.message)
+            alert("Unable to load courses: " + err.message);
         }
     }
+
+    async function handleDelete(id) {
+        try {
+            await fetch(`http://localhost:5000/courses/${id}`, {
+                method: "DELETE",
+            });
+            loadCourses();
+        }
+        catch(err) {
+            alert("Unable to delete course: " + err.message);
+        }
+    };
 
     return (
         <div>

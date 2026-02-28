@@ -15,8 +15,25 @@ This project is a web app for managing college courses. Teachers can create, edi
 - Students can add or drop courses from their personal schedules
 - Students can view all courses in which they are currently enrolled
 
-## Team Members
-- Ashley Lawrence – Data + Backend Logic  
-- Aaron Roberts – Course Index + Navigation  
-- Kamryn Williams – Add / Edit Course Pages  
-- Andrew Smith – View Course Details + Styling  
+## Team Members & Responsibilities
+
+- **Ashley Lawrence – Data + Backend Logic + Add Course Page**  
+  1. Course model & data structure  
+  2. Add, edit, delete logic & validation  
+  3. Mock data setup  
+  4. Add course page & submission  
+  5. Stage 2: Teacher course management (add/drop own courses)  
+
+- **Aaron Roberts – Course Index + Navigation**  
+  1. Index page of all courses  
+  2. Layout, links to view/edit courses  
+  3. Add course button & navigation  
+  4. Stage 2: Students can search and view courses  
+  5. Stage 2: Display enrolled courses for students  
+
+- **Andrew Smith – View Course Details + Styling + Edit Course Page**  
+  1. Course detail page  
+  2. CSS, layout, readability, UX polish  
+  3. Edit course page & submission  
+  4. Stage 2: Minor UX updates for student view  
+  5. Stage 2: Ensure required fields display correctly
