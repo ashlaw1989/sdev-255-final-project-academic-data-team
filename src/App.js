@@ -1,5 +1,5 @@
 import './App.css';
-import CourseList from "./courseList.js";
+import CourseList from './courseList';
 
 function App() {
   return (
@@ -7,7 +7,6 @@ function App() {
       <h1>Course Manager</h1>
       <h2>by Academic Data Team</h2>
       <CourseList />
-      
     </div>
   );
 }
