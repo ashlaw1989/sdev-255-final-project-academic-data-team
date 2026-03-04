@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New User</title>
+    <script src="src/registration.js"></script>
+</head>
+<body>
+    <h1>New User Registration</h1>
+    <form>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="role">Role:</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="registerBtn" value="Register">
+        </div>
+        <p id="error"></p>
+    </form>
+</body>
+</html>

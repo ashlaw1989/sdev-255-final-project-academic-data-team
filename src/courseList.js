@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 export default function CourseList() {
     const [courseList, setCourseList] = useState([]);
@@ -22,6 +24,7 @@ export default function CourseList() {
         try {
             await fetch(`http://localhost:5000/courses/${id}`, {
                 method: "DELETE",
+                headers: { "x-auth": localStorage.getItem("token")}
             });
             loadCourses();
         }
@@ -36,9 +39,9 @@ export default function CourseList() {
             <ul>
                 {courseList.map((course) => (
                     <li key={course.id}>
-                        <strong>{course.name}</strong> - {course.subject} {course.course}{" "}
+                        <strong>{course.name}</strong> - {course.subject}{course.course} ({course.credits} credits)
                         <button onClick={() => handleDelete(course.id)}>Delete</button>
-                        <a href={`/details/${course.id}`}>Details</a>
+                        <Link to={`/details/${course.id}`}>Details</Link>
                     </li>
                 ))}
             </ul>
