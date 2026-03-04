@@ -36,4 +36,4 @@ This project is a web app for managing college courses. Teachers can create, edi
   - CSS, layout, readability, UX polish  
   - Edit course page & submission  
   - Stage 2: Minor UX updates for student view  
-  - Stage 2: Ensure required fields display correctly
+
