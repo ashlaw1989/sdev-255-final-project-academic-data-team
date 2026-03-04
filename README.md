@@ -17,8 +17,6 @@ This project is a web app for managing college courses. Teachers can create, edi
 
 ## Team Members & Responsibilities
 
-## Team Members & Responsibilities
-
  **Ashley Lawrence – Data + Backend Logic + Add Course Page**  
   - Course model & data structure  
   - Add, edit, delete logic & validation  
@@ -38,4 +36,4 @@ This project is a web app for managing college courses. Teachers can create, edi
   - CSS, layout, readability, UX polish  
   - Edit course page & submission  
   - Stage 2: Minor UX updates for student view  
-  - Stage 2: Ensure required fields display correctly
+
