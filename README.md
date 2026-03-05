@@ -21,7 +21,8 @@ This project is a web app for managing college courses. Teachers can create, edi
   - Course model & data structure  
   - Add, edit, delete logic & validation  
   - Mock data setup  
-  - Add course page & submission  
+  - Add course page & submission
+  - Validation (required fields, credits numeric, etc.)
   - Stage 2: Teacher course management (add/drop own courses)  
 
 **Aaron Roberts – Course Index + Navigation**  
@@ -36,4 +37,3 @@ This project is a web app for managing college courses. Teachers can create, edi
   - CSS, layout, readability, UX polish  
   - Edit course page & submission  
   - Stage 2: Minor UX updates for student view  
-
