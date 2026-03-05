@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New User</title>
+</head>
+<body>
+    <h1>Add New Course</h1>
+    <form>
+        <div>
+            <label for="name">Course Name:</label>
+            <input type="text" id="name" placeholder="Course Name">
+        </div>
+        <div>
+            <label for="subject">Course Subject:</label>
+            <input type="text" id="subject" placeholder="Course Subject">
+        </div>
+        <div>
+            <label for="course">Course Code:</label>
+            <input type="number" id="course" placeholder="ex 150">
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" placeholder="Description of class curriculum" rows="4" cols="25"></textarea>
+        </div>
+        <div>
+            <label for="credits">Credits:</label>
+            <select name="credits" id="credits">
+                <option value="1">1</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="addBtn" value="Add Course">
+        </div>
+        <p id="error"></p>
+    </form>
+    <script src="../src/addCourse.js"></script>
+</body>
+</html>
