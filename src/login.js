@@ -24,7 +24,7 @@ async function login() {
             localStorage.setItem("token", data.token);
             localStorage.setItem("uname", data.username2);
             localStorage.setItem("auth", data.auth);
-            window.location.replace("/index.html");
+            window.location.replace("index.html");
         }
         else {
             document.querySelector("#error").innerHTML = data.error || "Bad username or password.";
