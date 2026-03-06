@@ -22,9 +22,9 @@ This project is a web app for managing college courses. Teachers can create, edi
   - Add, edit, delete logic
   - Mock data setup
   - Add course page, submission, and styling
-  - Login page, submission, and styling
-  - Registration page, submission, and styling
   - Validation (required fields, credits numeric, etc.)
+  - Stage 2: Login page, submission, and styling
+  - Stage 2: Registration page, submission, and styling
   - Stage 2: Teacher vs Student login authorization
   - Stage 2: Teacher course management (add/drop own courses)
 
@@ -39,3 +39,4 @@ This project is a web app for managing college courses. Teachers can create, edi
   - CSS, layout, readability, UX polish
   - Edit course page & submission
   - Stage 2: Minor UX updates for student view
+  - Stage 2: Ensure required fields display correctly
