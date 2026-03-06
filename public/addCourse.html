@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register New User</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Add New Course</h1>
+    <h1 id="heading">Add New Course</h1>
     <form>
         <div>
             <label for="name">Course Name:</label>
@@ -21,7 +22,7 @@
             <input type="number" id="course" placeholder="ex 150">
         </div>
         <div>
-            <label for="description">Description:</label>
+            <label for="description" style="vertical-align: top;">Description:</label>
             <textarea id="description" placeholder="Description of class curriculum" rows="4" cols="25"></textarea>
         </div>
         <div>
@@ -31,7 +32,7 @@
                 <option value="3">3</option>
             </select>
         </div>
-        <div>
+        <div id="buttonDiv">
             <input type="button" id="addBtn" value="Add Course">
         </div>
         <p id="error"></p>
