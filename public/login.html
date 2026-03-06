@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
+    <h1 id="heading">Login</h1>
     <form id="login" autocomplete="off">
         <div>
             <label for="username">Username:</label>
@@ -17,10 +17,12 @@
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="Password">
         </div>
-        <button id="loginBtn" type="button">Login</button>
+        <div id="buttonDiv">
+            <button id="loginBtn" type="button">Login</button>
+        </div>
         <p id="error"></p>
     </form>
-    <p>Not registered? <a href="registration.html">Click Here to Register</a></p>
+    <p id="redirect">Not registered? <a href="registration.html">Click Here to Register</a></p>
     
     <script src="../src/login.js"></script>
 </body>

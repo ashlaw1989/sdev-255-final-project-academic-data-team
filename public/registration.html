@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register New User</title>
     <script src="../src/registration.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>New User Registration</h1>
+    <h1 id="heading">New User Registration</h1>
     <form>
         <div>
             <label for="username">Username:</label>
@@ -24,11 +25,11 @@
                 <option value="teacher">Teacher</option>
             </select>
         </div>
-        <div>
+        <div id="buttonDiv">
             <input type="button" id="registerBtn" value="Register">
         </div>
         <p id="error"></p>
     </form>
-    <p>Already have an account? <a href="login.html">Click Here to Login</a></p>
+    <p id="redirect">Already have an account? <a href="login.html">Click Here to Login</a></p>
 </body>
 </html>

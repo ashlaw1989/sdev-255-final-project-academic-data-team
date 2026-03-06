@@ -24,7 +24,7 @@ async function registerUser() {
             localStorage.setItem("token", data.token);
             localStorage.setItem("uname", data.username2);
             localStorage.setItem("auth", data.auth);
-            window.location.replace("/index.html");
+            document.querySelector("#error").innerHTML = "Account created.";
         }
         else {
             const error = await response.json();

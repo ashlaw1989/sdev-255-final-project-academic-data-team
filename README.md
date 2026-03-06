@@ -28,7 +28,6 @@ This project is a web app for managing college courses. Teachers can create, edi
 **Aaron Roberts – Course Index + Navigation**  
   - Index page of all courses  
   - Layout, links to view/edit courses  
-  - Add course button & navigation  
   - Stage 2: Students can search and view courses  
   - Stage 2: Display enrolled courses for students  
 
